@@ -55,5 +55,38 @@
   width: 100%;
 }
 .portfolio{
-  float: right;
+  height: 25em;
+ display: flex;
+ margin-left: 9em;
+}
+
+.column{
+  flex: 25%;
+}
+.row3{
+  flex: 25%;
+}
+.card3{
+  height: 20em;
+  margin-top: 10em;
+  border-radius: 0%;
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  color: whitesmoke;
+}
+form{
+  background: transparent;
+}
+::placeholder{
+  color: whitesmoke;
+  opacity: 2;
+}
+.port{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 0.5em;
+}
+
+.contact{
+  margin-bottom: 3em;
 }
