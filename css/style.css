@@ -24,3 +24,22 @@
   margin-top: 0%;
   border-radius: 0%;
 }
+.aboutus{
+  text-align: center;
+  line-height: 2.5em;
+}
+.card2{
+  height: 20em;
+  margin-top: 0%;
+  border-radius: 0%;
+  background-image: url(../assets/backgrounds/s_image.jpg);
+  background-size: cover;
+  color: whitesmoke;
+}
+.services{
+  text-align: center;
+}
+.text{
+  margin-top: 5em;
+  line-height: 2.5em;
+}
