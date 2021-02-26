@@ -45,6 +45,7 @@
 }
 .what{
   padding-top: 2em;
+  margin-bottom: 8em;
 }
 .row{
   text-align: center;
@@ -89,4 +90,13 @@ form{
 
 .contact{
   margin-bottom: 3em;
+}
+#dev{
+  display: none;
+}
+#design{
+  display: none;
+}
+#manage{
+  display: none;
 }
