@@ -46,6 +46,7 @@
 .what{
   padding-top: 2em;
   margin-bottom: 8em;
+  cursor: pointer;
 }
 .row{
   text-align: center;

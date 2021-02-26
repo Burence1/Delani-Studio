@@ -13,16 +13,20 @@
         });
 
 $(document).ready(function () {
-  $("#design").click(function () {
-    $("#design").hide();
-    $("#des").show();
-  })
-});
-$("#dev").click(function () {
-  $("#dev").hide();
-  $("#develop").show();
-});
-$("#manage").click(function () {
-  $("#manage").hide();
-  $("#product").show();
-});
+        $("#design").click(function () {
+          $("#design").hide();
+          $("#des").show();
+        })});
+        $("#dev").click(function () {
+          $("#dev").hide();
+          $("#develop").show();
+        });
+        $("#manage").click(function () {
+          $("#manage").hide();
+          $("#product").show();
+        });
+
+$(document).ready(function () {
+  $(".pic1").hover(function () {
+    $(".pic1").mouseover("background-color", "white")
+  })});
