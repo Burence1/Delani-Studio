@@ -43,3 +43,17 @@
   margin-top: 5em;
   line-height: 2.5em;
 }
+.what{
+  padding-top: 2em;
+}
+.row{
+  text-align: center;
+}
+.col{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.portfolio{
+  float: right;
+}
