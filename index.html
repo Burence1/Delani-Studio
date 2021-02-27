@@ -135,14 +135,39 @@
         <div class="card-fluid" style="margin-bottom: 3em;">
           <div class="card-body" style="margin-bottom: 3em;">
             <div class="image-grid">
-              <img class="grid-image" id="port1" src="./assets/portfolio/work4.jpg">
-              <img class="grid-image" id="port2" src="./assets/portfolio/work3.jpg">
-              <img class="grid-image" id="port3" src="./assets/portfolio/work2.jpg">
-              <img class="grid-image" id="port4" src="./assets/portfolio/work1.jpg">
-              <img class="grid-image" id="port5" src="./assets/portfolio/work5.jpg">
-              <img class="grid-image" id="port6" src="./assets/portfolio/work6.jpg">
-              <img class="grid-image" id="port7" src="./assets/portfolio/work7.jpg">
-              <img class="grid-image" id="port8" src="./assets/portfolio/work8.jpg">
+              <div class="pic1" id="pic1">
+                <img class="grid-image" id="port1" src="./assets/portfolio/work4.jpg">
+              <div class="gallery1">PLAIN BACKGROUND<br>WALLPAPER</div>
+              </div>
+              <div class="pic2" id="pic2">
+                <img class="grid-image" id="port2" src="./assets/portfolio/work3.jpg">
+                <div class="gallery2">MIGHTY ONTARIO<br>LOGO</div>
+              </div>
+              <div class="pic3" id="pic3">
+                <img class="grid-image" id="port3" src="./assets/portfolio/work2.jpg">
+                <div class="gallery3">WALLPAPER<br>TEMPLATE</div>
+              </div>
+              <div class="pic4" id="pic4">
+                <img class="grid-image" id="port4" src="./assets/portfolio/work1.jpg">
+                <div class="gallery4">ENTERTAINMENT WEBSITE<br>TEMPLATE</div>
+              </div>
+              <div class="pic5" id="pic5">
+                <img class="grid-image" id="port5" src="./assets/portfolio/work5.jpg">
+                <div class="gallery5">PORTFOLIO<br>TEMPLATE</div>
+              </div>
+              <div class="pic6" id="pic6">
+                <img class="grid-image" id="port6" src="./assets/portfolio/work6.jpg">
+                <div class="gallery6">FORM INPUT<br>TEMPLATES</div>
+              </div>
+              <div class="pic7" id="pic7">
+                <img class="grid-image" id="port7" src="./assets/portfolio/work7.jpg">
+                <div class="gallery7">LOGO<br>MOCK-UP</div>
+              </div>
+              <div class="pic8" id="pic8">
+                <img class="grid-image" id="port8" src="./assets/portfolio/work8.jpg">
+                <div class="gallery8">RESTAURANT<br>LOGO</div>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -151,13 +176,12 @@
     </div>
   </section>
   <section class="contact">
-    <!--<div class="contact">-->
       <div class="card3">
         <div class="card-body" style="align-items: center;">
           <h2 style="text-align: center;">CONTACT US</h2>
           <div class="contact">
-            <form>
-                <div class="row">
+            <form id="data">
+                <div class="row" id="row">
                   <div class="col">
                     <input type="text" id="name" class="form-control" placeholder="Name..." style="background: transparent;">
                   </div>
@@ -170,14 +194,14 @@
                 <textarea class="form-control" id="textarea" rows="6" placeholder="Your message here..." style="background: transparent;"></textarea>
               </div>
               <label for="submit"></label>
-              <div class="submit" id="submit">
-                <button type="button" class="btn btn-light bg-transparent" onclick="text()" style="color: whitesmoke;">Submit</button>
+              <div class="submit">
+                <button input type="button" class="btn btn-light bg-transparent" onclick="getFormObj()" id="submit" style="color: whitesmoke;">Submit</button>
               </div>
             </form>
+            <div id="out">output</div>
           </div>
         </div>
       </div>
-    <!--</div>-->
   </section>
   <section class="icons">
     <div class="icons">

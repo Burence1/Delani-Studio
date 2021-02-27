@@ -94,45 +94,40 @@ form{
 #manage{
   display: none;
 }
-#pic1:hover{
-  opacity: 0.5;
+
+#port1:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic1:hover{
-  opacity: 0.5;
+#port2:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic2:hover{
-  opacity: 0.5;
+#port3:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic3:hover{
-  opacity: 0.5;
+#port4:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic4:hover{
-  opacity: 0.5;
+#port5:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic5:hover{
-  opacity: 0.5;
+#port6:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic6:hover{
-  opacity: 0.5;
+#port7:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic7:hover{
-  opacity: 0.5;
+#port8:hover{
+  opacity: 0.3;
   color: whitesmoke;
 }
-#pic8:hover{
-  opacity: 0.5;
-  color: whitesmoke;
-}
-#mighty{
-  display: none;
-}
+
 #submit{
   color: whitesmoke;
 }
@@ -157,6 +152,20 @@ form{
   height: 4em;
   display: block;
   padding: 0.3em;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7,
+.pic8{
+  text-align: center;
+  position: relative;
+}
+.gallery1, .gallery2, .gallery3, .gallery4, .gallery5,
+.gallery6, .gallery7, .gallery8{
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
 }
 /*enhancing the website's responsiveness*/
 @media screen and (max-width: 1029px) {
