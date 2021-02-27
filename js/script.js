@@ -26,7 +26,23 @@ $(document).ready(function () {
           $("#product").show();
         });
 
-$(document).ready(function () {
-  $(".pic1").hover(function () {
-    $(".pic1").mouseover("background-color", "white")
-  })});
+// $("#pic3").on(
+//         {
+//           mouseenter: function () {
+            
+//             $('#pic3').on('mouseenter', function () {
+//               $('#mighty',this);
+//             });
+//           }
+//           mouseleave: function () {
+            
+//             $('#pic3').on('mouseleave', function () {
+//               $('#mighty').hide();
+//             });
+//           }
+//         });
+
+function text() {
+  var text = document.getElementById("name").value;
+  alert( `${text} we have received your message. Thank you for reaching out to us`);
+}
