@@ -51,37 +51,19 @@ $('#pic8').hover(function () {
   $(".gallery8", this).fadeToggle(1000);
 });
 
- function reply() {
-   var text = document.getElementById("mce-FNAME").value;
-  alert( `${text} we have received your message. Thank you for reaching out to us`);
- }
-
-// $(document).ready(function () {
-//   //event.preventDefault();
-//   $("#submit").click(function () {
-//     var x = $("form").serializeArray();
-//     console.log(x);
-//     $.each(x, function (i, field) {
-//         console.log(x);
-//         $("#out").push(`${field.name}:${field.value} `);
-//         console.log(x);
-//         return false;
-//       });
-//   });
-// });
-
-// function getFormObj(data) {
-//   var formObj = {};
-//   console.log(formObj)
-//   var inputs = $(`#submit${data}`).serializeArray();
-//   $.each(inputs, function (i, input) {
-//     console.log(formObj)
-//     formObj[input.name] = input.value;
-//   });
-//   return formObj;
-// }
-// document.addEventListener("DOMContentLoaded", function(){
-//   form.name = document.getElementById("name");
-//   form.email = document.getElementById("email");
-//   form.textarea = document.getElementById("textarea");
-// });
+//  function reply() {
+//    var text = document.getElementById("mce-FNAME").value;
+//   alert( `${text} we have received your message. Thank you for reaching out to us`);
+//  }
+function getName(){ 
+let name = document.getElementById("mce-FNAME");
+let email = document.getElementById("mce-EMAIL");
+let text = document.getElementById("mce-MMERGE2");
+  let form = document.getElementById("mc-embedded-subscribe-form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault()
+  if(name.value && email.value && text.value){
+    alert(`${name.value} Thank you for reaching out to us`);
+  }
+})
+};
