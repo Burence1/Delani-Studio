@@ -51,24 +51,24 @@ $('#pic8').hover(function () {
   $(".gallery8", this).fadeToggle(1000);
 });
 
-//  function text() {
-//   var text = document.getElementById("name").value;
-//   alert( `${text} we have received your message. Thank you for reaching out to us`);
-// }
+ function reply() {
+   var text = document.getElementById("mce-FNAME").value;
+  alert( `${text} we have received your message. Thank you for reaching out to us`);
+ }
 
-$(document).ready(function () {
-  //event.preventDefault();
-  $("#submit").click(function () {
-    var x = $("form").serializeArray();
-    console.log(x);
-    $.each(x, function (i, field) {
-        console.log(x);
-        $("#out").push(`${field.name}:${field.value} `);
-        console.log(x);
-        return false;
-      });
-  });
-});
+// $(document).ready(function () {
+//   //event.preventDefault();
+//   $("#submit").click(function () {
+//     var x = $("form").serializeArray();
+//     console.log(x);
+//     $.each(x, function (i, field) {
+//         console.log(x);
+//         $("#out").push(`${field.name}:${field.value} `);
+//         console.log(x);
+//         return false;
+//       });
+//   });
+// });
 
 // function getFormObj(data) {
 //   var formObj = {};
@@ -80,3 +80,8 @@ $(document).ready(function () {
 //   });
 //   return formObj;
 // }
+// document.addEventListener("DOMContentLoaded", function(){
+//   form.name = document.getElementById("name");
+//   form.email = document.getElementById("email");
+//   form.textarea = document.getElementById("textarea");
+// });

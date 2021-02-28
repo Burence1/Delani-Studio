@@ -74,7 +74,9 @@
   background-size: cover;
   color: whitesmoke;
 }
-form{
+
+
+.form{
   background: transparent;
 }
 ::placeholder{
