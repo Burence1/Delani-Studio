@@ -6,15 +6,11 @@
   <title>Delani Studio</title>
   <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="./css/style.css" rel="stylesheet" type="text/css">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
   <!-- Begin Mailchimp Signup Form -->
   <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <style type="text/css">
-    #mc_embed_signup {
-      background: #fff;
-      clear: left;
-      font: 14px Helvetica, Arial, sans-serif;
-    }
     h4{
       text-align: center;
     }
@@ -85,10 +81,10 @@
     <div class="text2">
       <h2 style="text-align: center;">WHAT WE DO</h2>
     </div>
-    <div class="what">
+    <div class="what" style="margin-top: 2em;">
       <div class="container-fluid">
         <div class="row">
-          <div class="col" style="height: 10em; padding: 3em; margin-bottom: 4em;">
+          <div class="col" style="height: 10em; padding: 2em; margin-bottom: 2em;">
             <div class="card" style="border: transparent;">
               <div class="card-body">
                 <div class="des" id="des">
@@ -107,7 +103,7 @@
               </div>
             </div>
             </div>
-          <div class="col" style="height: 10em; padding: 3em; margin-bottom: 4em;">
+          <div class="col" style="height: 10em; padding: 3em; margin-bottom: 2em;">
             <div class="card" style="border: transparent;">
               <div class="card-body">
                 <div class="develop" id="develop">
@@ -127,7 +123,7 @@
               </div>
             </div>
           </div>
-          <div class="col" style="height: 10em; padding: 3em; margin-bottom: 4em;">
+          <div class="col" style="height: 10em; padding: 3em; margin-bottom: 2em;">
           <div class="card" style="border:transparent;">
             <div class="card-body">
               <div class="product" id="product">
@@ -150,7 +146,7 @@
       </div>
     </div>
   </section>
-  <section class="portfolio" style="padding-top: 3em;">
+  <section class="portfolio" style="padding-top: 2em;">
     <h2 style="text-align: center;">PORTFOLIO</h2>
       <div class="portfolio" style="margin-bottom: 3em;">
         <div class="card-fluid" style="margin-bottom: 3em;">
@@ -198,24 +194,30 @@
   </section>
   <section class="chimp">
     <div class="card3">
-        <div class="card-body" style="align-items: center;">
+        <div class="card-body">
       <div id="mc_embed_signup" style="background: transparent;">
         <form action="https://gmail.us1.list-manage.com/subscribe/post?u=f54dc6f3b6f8bcb73e2797dec&amp;id=f539bdbb00"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
           novalidate >
           <div id="mc_embed_signup_scroll">
             <h2>Contact</h2>
-            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-            <div class="mc-field-group">
-              <label for="mce-FNAME">Name <span class="asterisk">*</span>
-              </label>
-              <input type="text" style="background: transparent;" value="" name="FNAME" class="required" id="mce-FNAME">
-            </div>
-            <div class="mc-field-group">
-              <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
-              </label>
-              <input type="email" style="background: transparent;" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="mc-field-group">
+                    <label for="mce-FNAME">Name <span class="asterisk">*</span>
+                    </label>
+                    <input type="text" style="background: transparent;" value="" name="FNAME" class="required" id="mce-FNAME">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                    </label>
+                    <input type="email" style="background: transparent;" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                  </div>
+                </div>
+              </div>
             <div class="mc-field-group">
               <label for="mce-MMERGE2">Message </label>
               <input type="text" style="background: transparent;" value="" name="MMERGE2" class="" id="mce-MMERGE2">
@@ -227,7 +229,7 @@
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                 name="b_f54dc6f3b6f8bcb73e2797dec_f539bdbb00" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" onclick="getName()" name="subscribe" id="mc-embedded-subscribe"
+            <div class="clear"><input type="submit" value="submit" onclick="getName()" name="submit" id="mc-embedded-subscribe"
                 class="button"></div>
           </div>
         </form>

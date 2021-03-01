@@ -1,3 +1,6 @@
+html{
+  font-family: 'Bree Serif', serif;;
+}
 .jumbotron{
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-size: cover;
@@ -9,6 +12,11 @@
   text-align: center;
   color: whitesmoke;
   font-size: medium;
+}
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
 }
 .mouse{
   height: 4em;
