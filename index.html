@@ -6,29 +6,16 @@
   <title>Delani Studio</title>
   <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="./css/style.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <!-- Begin Mailchimp Signup Form -->
+ 
   <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-  <style>
-    h4{
-      text-align: center;
-    }
-    ul{
-      margin-left: auto;
-      justify-content: space-between;
-    }
-    li{
-      margin-left: auto;
-    }
-  </style>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
-
+  <!--Script connection to the chimpmail js-->
   <script
     id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/f54dc6f3b6f8bcb73e2797dec/6a267e092fedb89b7cc7c052c.js");
   </script>
+
 </head>
 <body>
+  <!--structuring the header part using bootstrap-->
   <section class="Header">
     <div class="Header">
       <div class="jumbotron jumbotron-fluid">
@@ -46,6 +33,7 @@
       </div>
     </div>
   </section>
+  <!--Structuring the about section-->
   <section class="About">
     <div class="About">
       <div class="card" style="width: 100%; margin-bottom: 3em; border-width: 0px;">
@@ -64,6 +52,7 @@
       </div>
     </div>
   </section>
+  <!--Structuring the services section-->
   <section class="services" style="margin-top: 3em;">
     <div class="services">
       <div class="card2" style="width: 100%; margin-top: 2em;">
@@ -80,121 +69,125 @@
       </div>
     </div>
   </section>
-  <section class="what" style="padding-top: 2em;">
-    <div class="text2">
-      <h2 style="text-align: center;">WHAT WE DO</h2>
-    </div>
-    <div class="what">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col" style="height: 10em; padding: 2em; margin-bottom: 2em;">
-            <div class="card" style="border: transparent;">
-              <div class="card-body">
-                <div class="des" id="des">
-                  <img src="./assets/services_icons/design_icon.png" alt="#">
-                  <p>DESIGN</p>
+  <!--bundling the what to do section in a container-->
+  <div class="container-fluid">
+    <section class="what" style="padding-top: 2em;">
+      <div class="text2">
+        <h2 style="text-align: center;">WHAT WE DO</h2>
+      </div>
+      <div class="what">
+          <!--using rows and columns to position the images-->
+          <div class="row">
+            <div class="col" style="height: 10em; padding: 2em; margin-bottom: 4em; box-sizing:content-box;">
+              <div class="card" style="border: transparent;">
+                <div class="card-body">
+                  <div class="des" id="des">
+                    <img src="./assets/services_icons/design_icon.png" alt="#">
+                    <p>DESIGN</p>
+                  </div>
+                  <div class="design" id="design">
+                    <h3>Design</h3>
+                    <p>
+                      Our design practice offers a full range of services including brand strategy, interaction and visual design and user
+                      experience testing.
+                      Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and
+                      work
+                      with you to make sure what gets built is what is needed.</p>
+                  </div>
                 </div>
-                <div class="design" id="design">
-                  <h3>Design</h3>
-                  <p>
-                    Our design practice offers a full range of services including brand strategy, interaction and visual design and user
-                    experience testing.
-                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and
-                    work
-                    with you to make sure what gets built is what is needed.</p>
+              </div>
+              </div>
+            <div class="col" style="height: 10em; padding: 2em; margin-bottom: 4em; box-sizing:content-box;">
+              <div class="card" style="border: transparent;">
+                <div class="card-body">
+                  <div class="develop" id="develop">
+                    <img src="./assets/services_icons/dev_icon.png" alt="#">
+                    <p>DEVELOPMENT</p>
+                  </div>
+                  <div class="dev" id="dev">
+                    <h3>Development</h3>
+                    <p>
+                      All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                      They collaborate with your team to write, and improve code on a daily basis, using proven practices such as
+                      test-driven
+                      development and pair programming.
+                  
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
-          <div class="col" style="height: 10em; padding: 3em; margin-bottom: 2em;">
-            <div class="card" style="border: transparent;">
+            <div class="col" style="height: 10em; padding: 2em; margin-bottom: 5em; box-sizing:content-box;">
+            <div class="card" style="border:transparent;">
               <div class="card-body">
-                <div class="develop" id="develop">
-                  <img src="./assets/services_icons/dev_icon.png" alt="#">
-                  <p>DEVELOPMENT</p>
+                <div class="product" id="product">
+                  <img src="./assets/services_icons/product_icon.png" alt="#">
+                  <p>PRODUCT MANAGEMENT</p>
                 </div>
-                <div class="dev" id="dev">
-                  <h3>Development</h3>
+                <div class="manage" id="manage">
+                  <h3>Product Management</h3>
                   <p>
-                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as
-                    test-driven
-                    development and pair programming.
-                
+                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are
+                    always
+                    ready to go live.
+                    This iterative process allows for changes as business requirements evolve.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col" style="height: 10em; padding: 3em; margin-bottom: 2em;">
-          <div class="card" style="border:transparent;">
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--designing the portfolio section-->
+  <div class="container-fluid">
+    <section class="portfolio">
+      <h2 style="text-align: center;">PORTFOLIO</h2>
+      <!--using cards and grids to position the images-->
+        <div class="portfolio">
+          <div class="card-fluid">
             <div class="card-body">
-              <div class="product" id="product">
-                <img src="./assets/services_icons/product_icon.png" alt="#">
-                <p>PRODUCT MANAGEMENT</p>
-              </div>
-              <div class="manage" id="manage">
-                <h3>Product Management</h3>
-                <p>
-                  Planning and development is iterative. Because we are constantly coding and testing, the products we build are
-                  always
-                  ready to go live.
-                  This iterative process allows for changes as business requirements evolve.
-                </p>
+              <div class="image-grid">
+                <div class="pic1" id="pic1">
+                  <img class="grid-image" id="port1" src="./assets/portfolio/work4.jpg">
+                <div class="gallery1">PLAIN BACKGROUND<br>WALLPAPER</div>
+                </div>
+                <div class="pic2" id="pic2">
+                  <img class="grid-image" id="port2" src="./assets/portfolio/work3.jpg">
+                  <div class="gallery2">MIGHTY ONTARIO<br>LOGO</div>
+                </div>
+                <div class="pic3" id="pic3">
+                  <img class="grid-image" id="port3" src="./assets/portfolio/work2.jpg">
+                  <div class="gallery3">WALLPAPER<br>TEMPLATE</div>
+                </div>
+                <div class="pic4" id="pic4">
+                  <img class="grid-image" id="port4" src="./assets/portfolio/work1.jpg">
+                  <div class="gallery4">ENTERTAINMENT WEBSITE<br>TEMPLATE</div>
+                </div>
+                <div class="pic5" id="pic5">
+                  <img class="grid-image" id="port5" src="./assets/portfolio/work5.jpg">
+                  <div class="gallery5">PORTFOLIO<br>TEMPLATE</div>
+                </div>
+                <div class="pic6" id="pic6">
+                  <img class="grid-image" id="port6" src="./assets/portfolio/work6.jpg">
+                  <div class="gallery6">FORM INPUT<br>TEMPLATES</div>
+                </div>
+                <div class="pic7" id="pic7">
+                  <img class="grid-image" id="port7" src="./assets/portfolio/work7.jpg">
+                  <div class="gallery7">LOGO<br>MOCK-UP</div>
+                </div>
+                <div class="pic8" id="pic8">
+                  <img class="grid-image" id="port8" src="./assets/portfolio/work8.jpg">
+                  <div class="gallery8">RESTAURANT<br>LOGO</div>
+                </div>
               </div>
             </div>
           </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="portfolio" style="padding-top: 4em;">
-    <h2 style="text-align: center;">PORTFOLIO</h2>
-      <div class="portfolio">
-        <div class="card-fluid">
-          <div class="card-body">
-            <div class="image-grid">
-              <div class="pic1" id="pic1">
-                <img class="grid-image" id="port1" src="./assets/portfolio/work4.jpg">
-              <div class="gallery1">PLAIN BACKGROUND<br>WALLPAPER</div>
-              </div>
-              <div class="pic2" id="pic2">
-                <img class="grid-image" id="port2" src="./assets/portfolio/work3.jpg">
-                <div class="gallery2">MIGHTY ONTARIO<br>LOGO</div>
-              </div>
-              <div class="pic3" id="pic3">
-                <img class="grid-image" id="port3" src="./assets/portfolio/work2.jpg">
-                <div class="gallery3">WALLPAPER<br>TEMPLATE</div>
-              </div>
-              <div class="pic4" id="pic4">
-                <img class="grid-image" id="port4" src="./assets/portfolio/work1.jpg">
-                <div class="gallery4">ENTERTAINMENT WEBSITE<br>TEMPLATE</div>
-              </div>
-              <div class="pic5" id="pic5">
-                <img class="grid-image" id="port5" src="./assets/portfolio/work5.jpg">
-                <div class="gallery5">PORTFOLIO<br>TEMPLATE</div>
-              </div>
-              <div class="pic6" id="pic6">
-                <img class="grid-image" id="port6" src="./assets/portfolio/work6.jpg">
-                <div class="gallery6">FORM INPUT<br>TEMPLATES</div>
-              </div>
-              <div class="pic7" id="pic7">
-                <img class="grid-image" id="port7" src="./assets/portfolio/work7.jpg">
-                <div class="gallery7">LOGO<br>MOCK-UP</div>
-              </div>
-              <div class="pic8" id="pic8">
-                <img class="grid-image" id="port8" src="./assets/portfolio/work8.jpg">
-                <div class="gallery8">RESTAURANT<br>LOGO</div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-    </div>
-  </section>
+    </section>
+  </div>
+  <!--chimp mail embedded sign up form-->
   <section class="chimp">
     <div class="card3">
         <div class="card-body">
@@ -240,6 +233,7 @@
       </div>
     </div>
   </section>
+  <!--displaying contact social icons-->
   <section class="icons">
     <div class="icons">
       <div class="icons-grid">
@@ -259,10 +253,11 @@
       </div>
     </div>
   </section>
+  <!--javascript and jquery connections to the html-->
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   <script
-    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[2] = 'MMERGE2'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-  <!--End mc_embed_signup-->
+    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[2] = 'MMERGE2'; ftypes[2] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+  </script>
   <script src="./js/jquery.js"></script>
   <script src="./js/script.js"></script>
 </body>

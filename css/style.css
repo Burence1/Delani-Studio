@@ -1,5 +1,7 @@
-html{
-  font-family: 'Noto Serif KR', serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .jumbotron{
   background-image: url(../assets/backgrounds/h_img.jpg);
@@ -50,7 +52,7 @@ html{
   line-height: 2.5em;
 }
 .what{
-  margin-bottom: 7em;
+  margin-bottom: 6em;
   cursor: pointer;
 }
 .row{
@@ -67,7 +69,16 @@ html{
 .About{
   margin-bottom: 3em;
 }
-
+h4{
+  text-align: center;
+}
+ul{
+  margin-left: auto;
+  justify-content: space-between;
+}
+li{
+  margin-left: auto;
+}
 .column{
   flex: 25%;
 }
