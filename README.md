@@ -9,6 +9,14 @@
 * Use the git clone command in the terminal to clone the project to the preferred local machine directory.
 * To work on the cloned project, ensure to have any text editors of your choice.}
 {Additionally, all the required assets are available in the stated remote repository. All you need is a text editor of your choice}
+
+## Behaviour Driven Development
+## Features
+* A header section containing Delani Logo and Slogan.
+* An about Us section informing us on what we do
+* A toggling what we do section displaying our skills
+* A toggling portfolio dissplaying our accomplished projects
+
 ## Known Bugs
 {Fortunately, the project has no bugs as at the moment as is considered good to go}
 ## Technologies Used
@@ -24,6 +32,11 @@
  * Email: burensomondi@gmail.com
  * LinkedIn: Burens Omondi
  * Github: Burence1}
+
+## Link to live server
+ {The project as been hosted on Github Pages and is accessible via https://burence1.github.io/Delani-Studio/ }
+
+
  ### License
 
  MIT License
