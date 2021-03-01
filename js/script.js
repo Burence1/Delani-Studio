@@ -1,4 +1,5 @@
- $(document).ready(function() {
+//creating the what we do section show/hide effect
+$(document).ready(function() {
   $("#des").click(function() {
     $("#design").show();
     $("#des").hide();
@@ -11,7 +12,7 @@
     $("#manage").show();
     $("#product").hide();
   });
-
+//reversing the what we do section hide/show effect
 $(document).ready(function () {
   $("#design").click(function () {
     $("#design").hide();
@@ -25,7 +26,7 @@ $(document).ready(function () {
     $("#manage").hide();
     $("#product").show();
   });
-
+//creating the hover effect on the portfolio section
 $('#pic1').hover(function () {
   $(".gallery1",this).fadeToggle(1000);
 });
@@ -51,10 +52,7 @@ $('#pic8').hover(function () {
   $(".gallery8", this).fadeToggle(1000);
 });
 
-//  function reply() {
-//    var text = document.getElementById("mce-FNAME").value;
-//   alert( `${text} we have received your message. Thank you for reaching out to us`);
-//  }
+//function for getting data from the form and alerting on submission
 function getName(){ 
 let name = document.getElementById("mce-FNAME");
 let email = document.getElementById("mce-EMAIL");

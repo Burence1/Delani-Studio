@@ -1,8 +1,10 @@
+/*imported google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@300&display=swap');
 
 body{
   font-family: 'Noto Sans JP', sans-serif;
 }
+/*customizing the jumbotron*/
 .jumbotron{
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-size: cover;
@@ -10,33 +12,40 @@ body{
   padding-top: 10em;
   margin-bottom: 0%;
 }
+/*styling the texts in the header section*/
 .heading{
   text-align: center;
   color: whitesmoke;
   font-size: medium;
 }
+/*styling the chimp mail form*/
 #mc_embed_signup {
   background: #fff;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
 }
+/*styling the mouse picture on the heading*/
 .mouse{
   height: 4em;
   padding-top: 2em;
   margin-left: 29%;
   margin-right: auto;
 }
+/*styling the Delani Logo*/
 .logo{
   height: 10em;
 }
+/*styling the about section card*/
 .card{
   margin-top: 0%;
   border-radius: 0%;
 }
+/*styling the about us section*/
 .aboutus{
   text-align: center;
   line-height: 2.5em;
 }
+/*styling the services section*/
 .card2{
   margin-top: 0%;
   border-radius: 0%;
@@ -44,6 +53,7 @@ body{
   background-size: cover;
   color: whitesmoke;
 }
+/*styling texts in the about us section*/
 .services{
   text-align: center;
 }
@@ -51,6 +61,7 @@ body{
   margin-top: 5em;
   line-height: 2.5em;
 }
+/*styling the what we do section*/
 .what{
   margin-bottom: 6em;
   cursor: pointer;
@@ -63,6 +74,7 @@ body{
   vertical-align: middle;
   width: 100%;
 }
+/*styling the portfolio section*/
 .portfolio{
  margin-bottom: 2em;
 }
@@ -76,6 +88,7 @@ ul{
   margin-left: auto;
   justify-content: space-between;
 }
+/*positioning the social media icons*/
 li{
   margin-left: auto;
 }
@@ -85,6 +98,7 @@ li{
 .row3{
   flex: 25%;
 }
+/*customizing the chimp mail form section*/
 .card3{
   margin-top: 2em;
   border-radius: 0%;
@@ -95,14 +109,12 @@ li{
 .form{
   background: transparent;
 }
-::placeholder{
-  color: whitesmoke;
-  opacity: 2;
-}
+
 .contact{
   margin-bottom: 3em;
   color: whitesmoke;
 }
+/*hiding the images to enhance toggling*/
 #dev{
   display: none;
 }
@@ -112,43 +124,17 @@ li{
 #manage{
   display: none;
 }
-
-#port1:hover{
+/*styling hover effects*/
+#port1:hover, #port2:hover, #port3:hover, #port4:hover,
+#port5:hover, #port6:hover, #port7:hover, #port8:hover{
   opacity: 0.3;
   color: whitesmoke;
 }
-#port2:hover{
-  opacity: 0.3;
-  color: whitesmoke;
-}
-#port3:hover{
-  opacity: 0.3;
-  color: whitesmoke;
-}
-#port4:hover{
-  opacity: 0.3;
-  color: whitesmoke;
-}
-#port5:hover{
-  opacity: 0.3;
-  color: whitesmoke;
-}
-#port6:hover{
-  opacity: 0.3;
-  color: whitesmoke;
-}
-#port7:hover{
-  opacity: 0.3;
-  color: whitesmoke;
-}
-#port8:hover{
-  opacity: 0.3;
-  color: whitesmoke;
-}
-
+/*styling the form button*/
 #submit{
   color: whitesmoke;
 }
+/*stling the portfolio images*/
 .image-grid{
   width: 90%;
   display: flex;
@@ -160,6 +146,7 @@ li{
   padding: 0.5em;
   height: 12em;
 }
+/*styling the social media icons*/
 .icons-grid{
   display: flex;
   margin-left: auto;
@@ -171,6 +158,8 @@ li{
   display: block;
   padding: 0.3em;
 }
+
+/*enhancing text positioning to enable hover toggle effect*/
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7,
 .pic8{
   text-align: center;
