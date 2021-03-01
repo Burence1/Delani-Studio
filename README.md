@@ -4,7 +4,6 @@
 ## Description
 {The Delani Studios website shares information on the services and skills available at Delani alongside templates of professional accomplished projects. Furthermore, the website is accompanied with a contact section to enhance communication between Dealani Studios and clients}
 ## Setup/Installation
-{
 * Navigate to the project repository via https://github.com/Burence1/Delani-Studio.git
 * Change your working directory to the clone location of your preference.
 * Use the git clone command in the terminal to clone the project to the preferred local machine directory.
