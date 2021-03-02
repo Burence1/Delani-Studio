@@ -13,9 +13,9 @@
 ## Behaviour Driven Development
 ## Features
 * A header section containing Delani Logo and Slogan.
-* An about Us section informing us on what we do
+* An about Us section showcasing what we do
 * A toggling what we do section displaying our skills
-* A toggling portfolio dissplaying our accomplished projects
+* A toggling portfolio displaying our accomplished projects
 
 ## Known Bugs
 {Fortunately, the project has no bugs as at the moment as is considered good to go}
